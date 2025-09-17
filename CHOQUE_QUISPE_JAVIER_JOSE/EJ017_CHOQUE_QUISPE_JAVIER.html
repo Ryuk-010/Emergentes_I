@@ -1,0 +1,38 @@
+<html lang="es"> <!--Inicio del HTML en español-->
+<head> <!--Cabecera del documento-->
+    <title>EJ017</title> <!--Título de la página-->
+</head> <!--Fin de la cabecera-->
+<body> <!--Inicio del contenido visible-->
+    <form action="#" method="post"> <!--Formulario con el metodo post-->
+        <fieldset> <!--Agrupa los elementos del formulario-->
+            <legend>Registro de Datos</legend> <!--Título de grupo de campos-->
+
+            <label for="nombre">Nombre: </label> <!--Etiqueta para el campo nombre-->
+            <input type="text" name="nombre" id="nombre" placeholder="Ej: Javier Jose" required> <!--Campo de texto obligatorio para el nombre -->
+            <br> <!--Salto de línea-->
+
+            <label for="apellido">Apellido: </label> <!--Etiqueta para el campo apellido-->
+            <input type="text" name="apellido" id="apellido" placeholder="Ej: Choque Quispe"> <!--Campo de texto para el apellido-->
+            <br> <!--Salto de línea-->
+
+            <label for="edad">Edad (años): </label> <!--Etiqueta para el campo edad-->
+            <input type="number" name="edad" id="edad" min="1" max="80" placeholder="Ej: 20" required> <!--Campo númerico obligatorio para la edad-->
+            <br> <!--Salto de línea-->
+
+            <p>Género: </p> <!--Párrafo de texto para el campo genero-->
+            <input type="radio" name="genero" id="masculino" value="masculino" required> <!--Opción de selección Masculino-->
+            <label for="masculino">Masculino</label> <!--Etiqueta asociada a la opción masculino-->
+
+            <input type="radio" name="genero" id="femenino" value="femenino"> <!--Opción de selección Femenino-->
+            <label for="femenino">Femenino</label> <!--Etiqueta asociado a la opción femenino-->
+            
+            <input type="radio" name="genero" id="otro" value="otro"> <!--Opción de selección Otro-->
+            <label for="otro">Otro</label> <!--Etiqueta asociada a la opción otro-->
+
+        </fieldset> <!--Fin del grupo de campos-->
+
+        <button type="submit">Enviar</button> <!--Bóton para enviar el formulario-->
+
+    </form> <!--Fin del formulario-->
+</body> <!--Fin del contenido-->
+</html> <!--Fin del documento HTML-->

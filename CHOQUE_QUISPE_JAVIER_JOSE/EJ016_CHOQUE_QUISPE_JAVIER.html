@@ -1,0 +1,34 @@
+<html lang="es"> <!-- Inicio del HTML en español -->
+<head> <!-- Cabecera del documento -->
+    <title>EJ016</title> <!-- Título de la página -->
+</head> <!-- Fin de la cabecera -->
+<body> <!-- Inicio del contenido visible -->
+    <form action="#" method="post"> <!-- Formulario con método POST -->
+        <fieldset> <!-- Agrupa los elementos del formulario -->
+            <legend>Datos de su Mascota</legend> <!-- Título del grupo de campos -->
+
+            <label for="nom-mascota">Nombre de la Mascota: </label> <!-- Etiqueta para el campo de nombre -->
+            <input type="text" name="nom-mascota" id="nom-mascota" placeholder="Ej: Rocky" requireda> <!-- Campo de texto para nombre de la mascota -->
+            <br> <!-- Salto de línea -->
+
+            <label for="edad-mascota">Edad (años): </label> <!-- Etiqueta para el campo de edad -->
+            <input type="number" name="edad-mascota" id="edad-mascota" min="1" max="30" placeholder="Ej: 5" required> <!-- Campo numérico para edad -->
+            <br> <!-- Salto de línea -->
+
+            <label for="raza">Raza: </label> <!-- Etiqueta para el campo de raza -->
+            <input type="text" name="raza" id="raza" placeholder="Ej: Pitbul" required> <!-- Campo de texto para raza -->
+            <br> <!-- Salto de línea -->
+
+            <label for="color-mascota">Color: </label> <!-- Etiqueta para el campo de color -->
+            <input type="text" name="color-mascota" id="color-mascota" placeholder="Ej: Marrón con blanco"> <!-- Campo de texto para color -->
+            <br> <!-- Salto de línea -->
+
+            <label for="peso-mascota">Peso (Kg): </label> <!-- Etiqueta para el campo de peso -->
+            <input type="number" name="peso-mascota" id="peso-mascota" step="0.01" min="0" max="100" placeholder="Ej: 12.50" required> <!-- Campo numérico para peso -->
+        </fieldset> <!-- Fin del grupo de campos -->
+
+        <button type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
+
+    </form> <!-- Fin del formulario -->
+</body> <!-- Fin del contenido -->
+</html> <!-- Fin del documento HTML -->
