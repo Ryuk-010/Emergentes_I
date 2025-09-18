@@ -1,4 +1,4 @@
 # Practica #1
-##TECNOLOGIAS EMERGENTES I
+## TECNOLOGIAS EMERGENTES I
 
-### Javier Jose Choque Quispe
+### Nombre: Javier Jose Choque Quispe
